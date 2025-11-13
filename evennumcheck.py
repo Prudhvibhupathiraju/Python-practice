@@ -1,6 +1,6 @@
 # num = int(input("what is the number you want to check\n"))
 def check_even(num):
     if num % 2 == 0:
-        print("Even Number")
+        print(f"{num} --> Even Number")
     else :
-        print("Odd Number")
+        print(f"{num} --> Odd Number")

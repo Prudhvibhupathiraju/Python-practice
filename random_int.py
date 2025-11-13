@@ -1,7 +1,7 @@
 import random
 import evennumcheck
-c = random.randint(1, 10)
+c = random.randint(1, 100)
 
-print(c)
+# print(c)
 
-result = evennumcheck.check_even(c)
+evennumcheck.check_even(c)
