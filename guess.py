@@ -12,9 +12,9 @@ print(" ".join(display))
 while ("".join(display)) != word:
   opt = str(input("Type a letter\n")).lower()
   remaining = []
-  for letter in word:
+  for index, letter in enumerate(word):
     if opt == letter:
-      remaining.append(opt)
+      remaining[index] = opt
     else:
       remaining.append("_")
   print(" ".join(remaining))
