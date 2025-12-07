@@ -14,8 +14,8 @@ opt = str(input("Type a letter\n")).lower()
 remaining = []
 for letter in word:
   if opt == letter:
-    remaining[letter] = opt
+    remaining.append(opt)
   else:
-    remaining[letter] = "_"
+    remaining.append(opt)
 
 print(" ".join(remaining))
