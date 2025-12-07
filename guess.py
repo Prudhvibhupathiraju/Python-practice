@@ -17,5 +17,4 @@ while ("".join(display)) != word:
       remaining.append(opt)
     else:
       remaining.append("_")
-
-print(" ".join(remaining))
+  print(" ".join(remaining))
