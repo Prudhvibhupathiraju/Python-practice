@@ -3,11 +3,13 @@ import random
 word_list = [ "aardvark", "baboon", "camel" ]
 word = random.choice(word_list)
 print(word)
-opt = str(input("Type a letter\n")).lower()
+
+display = []
 
 for letter in word:
-  letter = "_"
-print(word)
+  display.append("_")
+print(display)
 
+opt = str(input("Type a letter\n")).lower()
  
   
