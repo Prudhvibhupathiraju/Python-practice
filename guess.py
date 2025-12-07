@@ -13,6 +13,6 @@ while ("".join(display)) != word:
   opt = str(input("Type a letter\n")).lower()
   for letter in word:
     if opt == letter:
-      display[index] = opt
+      display[letter] = opt
     
   print(" ".join(display))
