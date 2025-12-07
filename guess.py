@@ -6,14 +6,14 @@ print(word)
 
 display = []
 
-for letter in word:
+for i in word:
   display.append("_")
 print(" ".join(display))
 
 opt = str(input("Type a letter\n")).lower()
  
-for i in word:
+for letter in word:
   if opt == letter:
-    display[i] = word[i]
+    display[letter] = opt
 
 print(" ".join(display))
