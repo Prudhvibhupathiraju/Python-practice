@@ -2,7 +2,7 @@ import random
 
 word_list = [ "aardvark", "baboon", "camel" ]
 word = random.choice(word_list)
-prinrt(word)
+print(word)
 opt = str(input("Type a letter\n"))
 
 for letter in word:
