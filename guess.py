@@ -15,6 +15,5 @@ while ("".join(display)) != word:
   for index, letter in enumerate(word):
     if opt == letter:
       remaining[index] = opt
-    else:
-      remaining.append("_")
+    
   print(" ".join(remaining))
