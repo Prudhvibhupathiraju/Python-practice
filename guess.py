@@ -12,4 +12,8 @@ print(" ".join(display))
 
 opt = str(input("Type a letter\n")).lower()
  
-  
+for i in word:
+  if opt == letter:
+    display[i] = word[i]
+
+print(" ".join(display))
