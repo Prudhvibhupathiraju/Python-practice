@@ -16,6 +16,6 @@ for letter in word:
   if opt == letter:
     remaining.append(opt)
   else:
-    remaining.append(opt)
+    remaining.append("_")
 
 print(" ".join(remaining))
