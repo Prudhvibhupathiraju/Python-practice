@@ -8,7 +8,7 @@ display = []
 
 for letter in word:
   display.append("_")
-print(" ".join(display))
+print("".join(display))
 
 opt = str(input("Type a letter\n")).lower()
  
