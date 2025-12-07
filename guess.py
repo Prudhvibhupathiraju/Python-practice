@@ -9,7 +9,7 @@ display = []
 for i in word:
   display.append("_")
 print(" ".join(display))
-while ("".join(display) == word
+while ("".join(display) != word:
   opt = str(input("Type a letter\n")).lower()
   remaining = []
   for letter in word:
