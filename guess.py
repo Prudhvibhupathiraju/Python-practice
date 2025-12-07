@@ -11,9 +11,11 @@ for i in word:
 print(" ".join(display))
 
 opt = str(input("Type a letter\n")).lower()
- 
+remaining = []
 for letter in word:
   if opt == letter:
-    display[letter] = opt
+    remaining[letter] = opt
+  else:
+    remaining[letter] = "_"
 
-print(" ".join(display))
+print(" ".join(remaining))
