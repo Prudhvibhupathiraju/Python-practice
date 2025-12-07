@@ -11,9 +11,8 @@ for i in word:
 print(" ".join(display))
 while ("".join(display)) != word:
   opt = str(input("Type a letter\n")).lower()
-  remaining = []
   for index, letter in enumerate(word):
     if opt == letter:
-      remaining[index] = opt
+      display[index] = opt
     
   print(" ".join(remaining))
