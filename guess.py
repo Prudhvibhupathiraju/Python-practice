@@ -15,4 +15,4 @@ while ("".join(display)) != word:
     if opt == letter:
       display[index] = opt
     
-  print(" ".join(remaining))
+  print(" ".join(display))
