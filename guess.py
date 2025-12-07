@@ -1,7 +1,7 @@
 import random
 
 word_list = [ "aardvark", "baboon", "camel" ]
-word = random.choice(words)
+word = random.choice(word_list)
 
 opt = int(input("Type a letter\n"))
 
