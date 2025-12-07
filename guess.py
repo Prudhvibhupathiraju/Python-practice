@@ -6,6 +6,8 @@ print(word)
 opt = str(input("Type a letter\n")).lower()
 
 for letter in word:
-  print(letter[word])
+  letter = "_"
+print(word)
+
  
   
