@@ -21,7 +21,7 @@ while lives>0:
   print(" ".join(display))
   if "_" not in display:
     print("You Win")    
-  
+    break
 if lives ==0:
   print("Game over")
   print(f"Your word is {word}")
