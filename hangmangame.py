@@ -30,12 +30,12 @@ while lives>0:
        
   print(f"\033[94mYour lives left:{lives}")  
   result = " ".join(display)  
-  print(f"\033[92m{result}")
+  print(result)
   if "_" not in display:
-    print("You Win")    
+    print("\033[92mYou Win")    
     break
 if lives ==0:
-  print("Game over")
-  print(f"Your word is {word}")
+  print("\033[91mGame over")
+  print(f"\033[94mYour word is {word}")
     
 
