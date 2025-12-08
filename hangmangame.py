@@ -15,6 +15,7 @@ word_list = [
 RED = "\033[31m"
 GREEN = "\033[32m"
 BLUE = "\033[34m"
+YELLOW = "\033[33m"
 RESET = "\033[0m"
 word = random.choice(word_list)
 display = []
@@ -39,7 +40,7 @@ while lives>0:
     print(f"{GREEN}You Win{RESET}")    
     break
 if lives ==0:
-  print("\033[91mGame over\033[91m")
-  print(f"\033[94mYour word is {word}\033[94m")
+  print(f"{RED}Game over{RESET}")
+  print(f"{YELLOW}Your word is {word}{RESET}")
     
 
