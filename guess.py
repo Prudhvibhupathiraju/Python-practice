@@ -15,9 +15,9 @@ while lives>0:
         display[index] = opt
   else:
     lives -= 1
-     print(f"Wrong lost a life! Lives remaining {lives}")
+    print(f"Wrong lost a life! Lives remaining {lives}")
        
-print(f"Your lives left:{lives}")  
+  print(f"Your lives left:{lives}")  
   print(" ".join(display))
   if "_" not in display:
     print("You Win")    
