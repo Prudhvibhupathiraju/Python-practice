@@ -13,14 +13,15 @@ while lives>0:
     for index, letter in enumerate(word):
       if opt == letter:
         display[index] = opt
-   else:
-     lives -= 1
-     print(f"Wrong lost a life! Lives remaining {lives}")  
-    
-  print(f"Your lives left:{lives}")  
+  else:
+    lives -= 1
+     print(f"Wrong lost a life! Lives remaining {lives}")
+       
+print(f"Your lives left:{lives}")  
   print(" ".join(display))
   if "_" not in display:
-    print("You Win")
+    print("You Win")    
+  
 if lives ==0:
   print("Game over")
   print(f"Your word is {word}")
