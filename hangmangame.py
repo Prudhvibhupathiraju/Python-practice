@@ -12,6 +12,10 @@ word_list = [
     "baby", "brother", "sister", "father", "mother",
     "car", "bus", "train", "street", "bridge"
 ]
+RED = "\033[31m"
+GREEN = "\033[32m"
+BLUE = "\033[34m"
+RESET = "\033[0m"
 word = random.choice(word_list)
 display = []
 for i in word:
@@ -26,13 +30,13 @@ while lives>0:
         display[index] = opt
   else:
     lives -= 1
-    print(f"\033[91mWrong lost a life! Lives remaining {lives}\033[91m")
+    print(f"{RED}Wrong lost a life! Lives remaining {lives}{RESET}")
        
-  print(f"\033[94mYour lives left:{lives}\033[94m")  
+  print(f"{BLUE}Your lives left:{lives}{RESET}")  
   result = " ".join(display)  
   print(result)
   if "_" not in display:
-    print("\033[92mYou Win\033[92m")    
+    print(f"{GREEN}You Win{RESET}")    
     break
 if lives ==0:
   print("\033[91mGame over\033[91m")
