@@ -1,5 +1,5 @@
 import random
-basic_words = [
+word_list = [
     "apple", "banana", "orange", "grape", "pear",
     "house", "table", "chair", "window", "door",
     "school", "pencil", "paper", "book", "teacher",
