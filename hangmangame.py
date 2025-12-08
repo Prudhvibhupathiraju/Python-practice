@@ -1,19 +1,17 @@
 import random
-word_list = [ "aardvark", "baboon", "camel", "python", "computer", "science", "elephant", "airplane",
-    "notebook", "penguin", "mountain", "ocean", "rainbow",
-    "sandwich", "giraffe", "volcano", "library", "puzzle",
-    "diamond", "chocolate", "calendar", "backpack", "tornado",
-    "castle", "battery", "adventure", "festival", "galaxy",
-    "kangaroo", "lighthouse", "microscope", "parrot", "treasure", "adventure", "balloon", "bicycle", "crocodile", "dinosaur",
-    "electric", "fireworks", "galaxy", "harmonica", "iguana",
-    "jungle", "keyboard", "lantern", "magnet", "nectarine",
-    "octopus", "pirate", "quicksand", "rocket", "satellite",
-    "telescope", "umbrella", "volcano", "whistle", "xylophone",
-    "yogurt", "zeppelin", "astronaut", "bamboo", "caterpillar",
-    "dragon", "emerald", "forest", "glacier", "horizon",
-    "island", "jigsaw", "koala", "labyrinth", "meteor",
-    "nebula", "orchard", "peacock", "quiver", "rainforest",
-    "sapphire", "treasure", "unicorn", "voyage", "wizard" ]
+basic_words = [
+    "apple", "banana", "orange", "grape", "pear",
+    "house", "table", "chair", "window", "door",
+    "school", "pencil", "paper", "book", "teacher",
+    "water", "river", "ocean", "mountain", "garden",
+    "dog", "cat", "bird", "fish", "horse",
+    "happy", "sad", "pretty", "funny", "strong",
+    "green", "blue", "red", "yellow", "black",
+    "music", "movie", "party", "family", "friend",
+    "morning", "night", "sun", "moon", "star",
+    "baby", "brother", "sister", "father", "mother",
+    "car", "bus", "train", "street", "bridge"
+]
 word = random.choice(word_list)
 display = []
 for i in word:
