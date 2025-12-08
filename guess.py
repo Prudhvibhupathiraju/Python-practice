@@ -9,7 +9,7 @@ print(" ".join(display))
 lives = 6
 while lives>0:
   opt = str(input("Type a letter\n")).lower()
-  if opt in word
+  if opt in word:
     for index, letter in enumerate(word):
       if opt == letter:
         display[index] = opt
