@@ -14,7 +14,7 @@ print(f"num2 = {num2}")
 print("\nnum1 points to ", id(num1))
 print("num2 points to ", id(num2))
 
-dict1 = { 'value1' = 22 }
+dict1 = { 'value1' : 22 }
 dict2 = dict1
 
 print("Before dict2 value is updated")
