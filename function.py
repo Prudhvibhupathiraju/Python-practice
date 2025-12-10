@@ -14,10 +14,10 @@ def greet_ayaansh():
     print("How are you")
 greet_ayaansh()    
 
-def greet(name):
+def greet(name, location):
     print(f"Hello {name}!")
-    print(f"Good Morning {name}")
+    print(f"Good Morning {name}, how is the weather today in {location}")
     print(f"How are you {name}")
 
-greet("Prudhvi")
-greet("Babitha")
+greet("Prudhvi", "Kaikaluru")
+greet("Babitha", "bhimavram")
