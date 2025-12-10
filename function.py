@@ -19,5 +19,5 @@ def greet(name):
     print(f"Good Morning {name}")
     print(f"How are you {name}")
 
-greet(Prudhvi)
-greet(Babitha)
+greet("Prudhvi")
+greet("Babitha")
