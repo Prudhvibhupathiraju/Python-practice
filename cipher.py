@@ -6,15 +6,15 @@ direction = str(input("Type 'encode' to encrypt or 'decode' to decrypy\n")).lowe
 text = input("Type your message\n") 
 shift = int(input("Type the shift number\n"))
 def encrypt(text, shift):
-  encrypt_message = []
+  encrypt_message = ""
   for letter in text.lower():
-    encrypt_message.append(alphabet[alphabet.index(letter) - shift])
-  print(join("",(encrypt_message))
+    encrypt_message.append(alphabet[alphabet.index(letter) + shift])
+  print(join("",(encrypt_message)))
 def decrypt(text, shift):
   decrypt_message = []
   for letter in text.lower():
-    encrypt_message.append(alphabet[alphabet.index(letter) + shift])
-  print(join("",(decrypt_message))
+    decrypt_message.append(alphabet[alphabet.index(letter) - shift])
+  print(join("",(decrypt_message)))
 if direction == "encode":
   encrypt(text, shift)
 if direction == "decode":
