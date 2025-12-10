@@ -13,4 +13,11 @@ def greet_ayaansh():
     print("Good Morning")
     print("How are you")
 greet_ayaansh()    
-    
+
+def greet(name):
+    print(f"Hello {name}!")
+    print(f"Good Morning {name}")
+    print(f"How are you {name}")
+
+greet(Prudhvi)
+greet(Babitha)
