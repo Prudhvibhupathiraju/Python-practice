@@ -18,7 +18,7 @@ def decrypt(text, shift):
     index = alphabet.index(letter)
     new_index = (index - shift) % 26
     decrypt_message += alphabet[new_index]  
-  print(encrypt_message)
+  print(decrypt_message)
 if direction == "encode":
   encrypt(text, shift)
 if direction == "decode":
