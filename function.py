@@ -19,5 +19,5 @@ def greet(name, location):
     print(f"Good Morning {name}, how is the weather today in {location}")
     print(f"How are you {name}")
 
-greet("Prudhvi", "Kaikaluru")
-greet("Babitha", "bhimavram")
+greet(location = "kaikaluru", name = "Prudhvi")
+greet(location = "Bhimavaram", name = "Babitha")
