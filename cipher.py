@@ -17,7 +17,8 @@ def decrypt(text, shift):
     new_index = (index - shift) % 26
     decrypt_message += alphabet[new_index]  
   print(decrypt_message)
-While condition is True
+condition = True    
+While condition is True:
     direction = str(input("Type 'encode' to encrypt or 'decode' to decrypy\n")).lower()
     text = input("Type your message\n") 
     shift = int(input("Type the shift number\n"))
@@ -29,8 +30,7 @@ While condition is True
     opt = str(input("Type yes to go back or no to stop\n"))
     if opt is "no":
         condition is False
-    else:
-        condition is True
+    
   
   
   
