@@ -8,5 +8,9 @@ class LinkedList:
         self.head = new_node
         self.tail = new_node
         self.length = 1
+    def append(self, value):
+        append_node = Node(value)
+        self.tail = Node(value)
+        
 my_linked_list = LinkedList(4)
 print(my_linked_list.head.value)        
