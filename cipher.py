@@ -29,7 +29,7 @@ while condition:
       decrypt(text, shift)
     opt = str(input("Type yes to go back or no to stop\n"))
     if opt == "no":
-        condition is False
+        condition = False
     
   
   
