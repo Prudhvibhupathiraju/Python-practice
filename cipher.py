@@ -18,7 +18,7 @@ def decrypt(text, shift):
     decrypt_message += alphabet[new_index]  
   print(decrypt_message)
 condition = True    
-While condition is True:
+While condition:
     direction = str(input("Type 'encode' to encrypt or 'decode' to decrypy\n")).lower()
     text = input("Type your message\n") 
     shift = int(input("Type the shift number\n"))
