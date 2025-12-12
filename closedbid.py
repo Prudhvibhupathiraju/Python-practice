@@ -1,6 +1,7 @@
 condition = True
 bid_dict = {}
 while condition == True:
+  print("\n" * 100)
   name = str(input("what is your name\n"))
   bid = int(input("what is your bid amount\n"))
   bid_dict[name] = bid
@@ -8,6 +9,7 @@ while condition == True:
   if opt == "no":
     print("\n" * 100)
     condition = False
+print("\n" * 100)
 max_bid = 0
 max_bidder = None
 for key, value in bid_dict.items():
