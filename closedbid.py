@@ -1,10 +1,10 @@
-Condition = True:
+Condition = True
 bid_dict = {}
-while condition = True:
-  name = input(str("what is your name\n"))
-  bid = input(int("what is your bid amount\n"))
+while condition == True:
+  name = str(input("what is your name\n"))
+  bid = int(input("what is your bid amount\n"))
   bid_dict[name] = bid
-  opt = input(str("Is there are other bidders yes or no\n")).lower()
+  opt = str(input("Is there are other bidders yes or no\n")).lower()
   if opt == "no":
     print("\n" * 100)
     condition = False
