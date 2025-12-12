@@ -1,4 +1,4 @@
-Condition = True
+condition = True
 bid_dict = {}
 while condition == True:
   name = str(input("what is your name\n"))
