@@ -1,6 +1,6 @@
 Condition = True:
 bid_dict = {}
-while condition is True:
+while condition = True:
   name = input(str("what is your name\n"))
   bid = input(int("what is your bid amount\n"))
   bid_dict[name] = bid
