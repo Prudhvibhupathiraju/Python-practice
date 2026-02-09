@@ -21,11 +21,35 @@ dict1 ={
 # for key in dict1:
 #     print(f"{key} : {dict1[key]}")
 
-data = {
-    "name": "Ravi",
-    "age": 25,
-    "skills": ["Linux", "Python", "AWS"],
-    "projects": ["Server Automation", "Monitoring Setup"]
+# data = {
+#     "name": "Ravi",
+#     "age": 25,
+#     "skills": ["Linux", "Python", "AWS"],
+#     "projects": ["Server Automation", "Monitoring Setup"]
+# }
+
+# print(data["skills"][1])
+
+# students = [
+#     ["Ravi", 25, ["Linux", "Python"]],
+#     ["Kiran", 27, ["AWS", "Docker"]]
+# ]
+
+# print(students[0][2][0])
+
+travel_log = {
+    "India": {
+        "cities_visited": ["Hyderabad", "Bangalore", "Chennai"],
+        "total_visits": 5
+    },
+    "USA": {
+        "cities_visited": ["New York", "Chicago", "San Francisco"],
+        "total_visits": 2
+    },
+    "UAE": {
+        "cities_visited": ["Dubai", "Abu Dhabi"],
+        "total_visits": 3
+    }
 }
 
-print(data["skills"][1])
+print(travel_log["USA"]["cities_visited"][2])
