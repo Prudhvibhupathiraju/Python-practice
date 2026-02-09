@@ -11,7 +11,12 @@ dict1 ={
   "device_type": "Laptop"
 }
 
-print(dict1["is_active"])
-dict1["State"] = "Andhra Pradesh"
-print(dict1["State"])
-print(dict1)
+# print(dict1["is_active"])
+# dict1["State"] = "Andhra Pradesh"
+# print(dict1["State"])
+# print(dict1)
+# dict1["login_attempts"] = 5
+# print(dict1["login_attempts"])
+
+for key in dict1:
+    print(f"{key} : {dict1[key]}")
