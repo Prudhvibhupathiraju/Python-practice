@@ -18,5 +18,14 @@ dict1 ={
 # dict1["login_attempts"] = 5
 # print(dict1["login_attempts"])
 
-for key in dict1:
-    print(f"{key} : {dict1[key]}")
+# for key in dict1:
+#     print(f"{key} : {dict1[key]}")
+
+data = {
+    "name": "Ravi",
+    "age": 25,
+    "skills": ["Linux", "Python", "AWS"],
+    "projects": ["Server Automation", "Monitoring Setup"]
+}
+
+print(data["skills"][1])
