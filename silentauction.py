@@ -18,5 +18,5 @@ for key in silent_auction:
         highest_bid = silent_auction[key]
         highest_bidder = key
 print("\n" * 100)        
-print(f"{highest_bidder} won the silent auction with bid amount {highest_bid}")        
+print(f"{highest_bidder} won the silent auction with bid amount ${highest_bid}")        
                 
