@@ -24,7 +24,7 @@ while any_operation:
         print(f"{num1} {operation} {num2}= {result}")
         to_continue = str(input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation : "))
         if to_continue == "y":
-            anum1 = result 
+            num1 = result 
         else:
             print("\n" * 100) 
             any_other_operation = False 
